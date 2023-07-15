@@ -38,10 +38,11 @@ As you can see above I've gone through and entered what it is i want changing an
 - For the thrid one as all the "." have been removed that includes the one between the file name and the file name extention so that needs putting back. So its changed from a space (just one space as thats what we replaced "." with) then the file name extention E.g **" mkv"** and its changed to **".mkv"**
 - And lastly we wanted to add a bit of formating so we changed from **"Fist S01"** (as thats that it will look like by the time this change is made) and change it to **"Fist - S01"**
 
+![image](https://github.com/SeleneVamp/Mass-File-Name-Changer/assets/139238196/08dec0f3-97e6-4511-a214-1fd17ef937e0)
 
 As you can see it will go through each change you enter and make them to the files in the directory that you gave it at the beginning, After that it will start over again.
 
-## Thinks to rememeber
+## Thing's to rememeber
 
 - When entering the Files directory it only need to go to the folder that holders the files, its not the directory of each file its self. You also don't need to add an ending "\" as the program does that for you. So For example
   - **X:\Shows\Marvels Iron Fist\Season 01** (Correct Format)
@@ -56,3 +57,22 @@ As you can see it will go through each change you enter and make them to the fil
   - When adding the **" - "** to between the show name and show season + episode numbers, when it gets to making this change it won't look like this: **Marvels.Iron.Fist.S01E01.2160p.10bit.NF.WEBRip.5.1.x265.HEVC-MZABI.mkv**
   - It will look like this: **Marvels Iron Fist S01E01.mkv**
   - So you need to take into account what it is your channging from otherwise it wont work
+
+- Should you enter the wrong change from or change to you will need to restart the program as editing the changes as yet to be implemented into the program
+
+## Files Included
+
+- FileName Changer.py
+  - This is the python file that contains the code for the program
+- FileName Changer.bat
+  - This is a bat file that runs the python file, if you don't want to have to open the python file every time you want to run this program
+  - The bat file doesn't need to be in the same location as the python file as long as it links to it (i.e. Shortcut)
+
+## Future Improvements
+
+In the future i would like to add these things to the program just to make it a bit more user friendly and nicer. While i know there is probably programs out there that already do what this program does, it wasn't made by me.
+
+- Create a GUI rather than having to run it from a python runner or a bat file
+-  Add the ablility to change the users file name changes before the program run with it. (This can probably be done with the GUI as it will have text boxes that get filled in and wont take the info till the run button is clicked)
+-  Add more or less changes while doing the changes rather than being stuck to a set number and haing to repeat the process again or having to restart the program.
+-  Have it ignore the filename extention so users don't have to worry about having that being apart of the file name change
