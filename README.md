@@ -1,4 +1,4 @@
-# Mass FileName Changer
+# FileName Changer
 This is a program that will rename all the files in a directory
 
 If you had a nummber of files that all had in some text in the name that you didn't want or you just downloaded files/ a torrent and you want it to fit into a naming format of your liking. Then this program will loop through each file and rename it to the pararmeters that you give it.
