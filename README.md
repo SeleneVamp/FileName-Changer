@@ -23,8 +23,7 @@ After that it will ask how many changes we want to make to the file names. So in
 
 - 1, Removing ".2160p.10bit.NF.WEBRip.5.1.x265.HEVC-MZABI"/n
 - 2, Removing "."
-- 3, Add a "." back to infront of the file extenstion
-- 4, Add " - " between Fist and S01
+- 3, Add " - " between Fist and S01
 
 ![image](https://github.com/SeleneVamp/Mass-File-Name-Changer/assets/139238196/829e42df-2e1f-41cf-833d-52bf8397c3cc)
 
@@ -35,7 +34,6 @@ After entering how many changes we want to do, it will go through each of the ch
 As you can see above I've gone through and entered what it is i want changing and what i want it changing to. 
 - For the first one i entered everything after "E0" and the change to is left blank as we want to get rid of it completely.
 - The second one entered a fullstop "." as wanting to be changed and change to is a space (just one space)
-- For the thrid one as all the "." have been removed that includes the one between the file name and the file name extention so that needs putting back. So its changed from a space (just one space as thats what we replaced "." with) then the file name extention E.g **" mkv"** and its changed to **".mkv"**
 - And lastly we wanted to add a bit of formating so we changed from **"Fist S01"** (as thats that it will look like by the time this change is made) and change it to **"Fist - S01"**
 
 ![image](https://github.com/SeleneVamp/Mass-File-Name-Changer/assets/139238196/08dec0f3-97e6-4511-a214-1fd17ef937e0)
