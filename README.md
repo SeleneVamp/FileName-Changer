@@ -1,3 +1,6 @@
+# Update
+There is now a gui verison so you no longer need to run the bat file or run the py file directly or you can run the new py file directly. This is so that you get the GUI rather than via command line. But other than that the process is still the same for way to rename/run the program
+
 # FileName Changer
 This is a program that will rename all the files in a directory
 
