@@ -1,3 +1,4 @@
+# Adding a gui to the file renamer.
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from pathlib import Path
