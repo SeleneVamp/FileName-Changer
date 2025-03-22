@@ -1,5 +1,5 @@
+# Switch from os and fmatch libaray to pathlib for modern way. I.e this is for using .stem eaither than it would be on os
 from pathlib import Path
-
 
 def main():
 
